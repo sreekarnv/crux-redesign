@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.hero-section {
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, $tertiary, $primary, $secondary);
+}
+
+.about {
+    &__img {
+        position: relative;
+        z-index: 10;
+        border-radius: 2px;
+        transform : translateX( 4rem );  
+        box-shadow: $shadow;; 
+
+        
+        @include respond(lg) {
+            transform: translate(0);
+            margin: 2rem 0;
+        }
+    }
+
+    .card {
+        z-index: 2;
+        height: 30rem;
+        background-image: linear-gradient(to right bottom,
+        $primary, $secondary);
+        box-shadow: $shadow;
+        border: none;
+        margin: none;
+
+        @include respond(lg) {
+            height: auto;
+            padding: 2rem 0;
+            box-shadow: none;
+        }
+        
+    }
+
+    &__btn {
+        fill: $white;
+        transition : all .2s ease-out;
+
+        &:hover > * {
+            fill: $primary;
+        }
+    }
+}
+
+.projects {
+    height: auto;
+    padding-bottom: 3rem;
+    background-color: #F7F7F7;
+
+    @include respond(xl) {
+        
+        padding: 4rem 0; 
+        & > * :not(:last-child){
+            margin-bottom: 1rem;
+        }
+    }
+
+}

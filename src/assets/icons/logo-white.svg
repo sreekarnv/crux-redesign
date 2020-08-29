@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="100" viewBox="0 0 180 100">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_1" data-name="Path 1" d="M0,0H180V100H0Z" transform="translate(0 1)" fill="#fefefe"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 -1)" clip-path="url(#clip-path)">
+    <g id="logo" transform="translate(40.728 1)">
+      <path id="Path_2" data-name="Path 2" d="M56.567,131.931l-8.212-8.372L72.991,98.569l-8.212-8.33L40.143,115.229l-8.212-8.33L56.567,81.91,31.931,56.92,56.567,31.931l16.424,16.66-8.212,8.33-8.212-8.33-8.212,8.33,57.484,58.309,8.212-8.33-8.212-8.33,8.212-8.33,16.424,16.66-24.636,24.989L81.2,106.9,56.567,131.931" transform="translate(-31.931 -31.931)" fill="#fefefe"/>
+      <path id="Path_3" data-name="Path 3" d="M654.267,249.044l-8.212-8.33L678.9,207.395l8.212,8.33-32.848,33.319" transform="translate(-588.57 -190.735)" fill="#fefefe"/>
+      <path id="Path_4" data-name="Path 4" d="M511.651,40.261l-8.212-8.33L470.59,65.25l8.212,8.33,32.848-33.319" transform="translate(-429.53 -31.931)" fill="#fefefe"/>
+    </g>
+  </g>
+</svg>

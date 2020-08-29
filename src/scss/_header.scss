@@ -1,0 +1,31 @@
+.navbar {
+
+    background-image:  linear-gradient(to right,  $primary 40%, $tertiary 100%);
+
+
+    &-brand {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+            height: 5rem;
+            width: 5rem;
+        }
+    }
+
+    .nav-link {
+        color: rgba($black, .8) !important;
+        font-size: 1.1rem;
+        transition: all .2s ease-out;
+
+        &:hover {
+            color: $white !important;
+        }
+    }
+
+    .btn{
+        margin-left: 1rem;
+    }
+
+}
